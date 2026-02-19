@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knapsack Variants: Comparative Analysis</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>Knapsack<span>Analysis</span></h1>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active" data-module="intro"><a href="#intro">Introduction</a></li>
+                    <li data-module="knapsack01"><a href="#knapsack01">0/1 Knapsack (DP)</a></li>
+                    <li data-module="fractional"><a href="#fractional">Fractional (Greedy)</a></li>
+                    <li data-module="exhaustive"><a href="#exhaustive">Exhaustive (Brute Force)</a></li>
+                    <li data-module="analysis"><a href="#analysis">Comparative Analysis</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <p>DAA Learning Platform</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-bar">
+                <button class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="module-title" id="module-title">Introduction to Knapsack</div>
+            </header>
+
+            <section id="content-area" class="content-area">
+                <!-- Module content will be injected here -->
+                <div class="loader">Loading...</div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/intro.js"></script>
+    <script src="js/knapsack01.js"></script>
+    <script src="js/fractional.js"></script>
+    <script src="js/exhaustive.js"></script>
+    <script src="js/analysis.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
